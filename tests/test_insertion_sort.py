@@ -15,5 +15,8 @@ class TestInsertionSortDesc(unittest.TestCase):
     def test_negatives(self):
         self.assertEqual(insertion_sort_desc([0, -1, -3, 2]), [2, 0, -1, -3])
 
+    def test_empty_list(self):
+        self.assertEqual(insertion_sort_desc([]), [])
+
 if __name__ == "__main__":
     unittest.main()

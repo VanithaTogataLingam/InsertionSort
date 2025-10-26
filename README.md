@@ -45,6 +45,8 @@ git push -u origin main
 ```
 
 # Author
+```
 Vanitha Togata Lingam
 University of the Cumberlands
 MSCS532 – Assignment 1
+```
